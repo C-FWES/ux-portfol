@@ -9,11 +9,19 @@ function ProjectList() {
         navigate('/casestudy1')
     }
 
+    const goToCaseStudy2 = () => {
+        navigate('/casestudy2')
+    }
+
+    const goToCaseStudy3 = () => {
+        navigate('/casestudy3')
+    }
+
     return (
         <div className="projectListContainer">
             <p className="projectListElement" onClick={goToCaseStudy1}>QUEST 2.0</p>
-            <p className="projectListElement">MOCKMATCH</p>
-            <p className="projectListElement">PLANTOGRAM</p>
+            <p className="projectListElement" onClick={goToCaseStudy2}>MOCKMATCH</p>
+            <p className="projectListElement"  onClick={goToCaseStudy3}>PLANTOGRAM</p>
         </div>
     )
 }

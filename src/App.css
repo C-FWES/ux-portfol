@@ -127,12 +127,12 @@ body {
 .caseStudyImageContainer {
   display: inline-block;
   width: 100%;
-  margin-top: 36px;
+  margin-top: 48px;
 }
 
 .caseStudyImage {
   width: 100%;
   height: auto;
   object-fit: contain;
-  /* border-radius: 8px; */
+  border-radius: 8px;
 }

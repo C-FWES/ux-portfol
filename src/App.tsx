@@ -12,6 +12,8 @@ import Home from './Home';
 import Contact from './Contact';
 import About from './About';
 import CaseStudy1 from './CaseStudy1';
+import CaseStudy2 from './CaseStudy2';
+import CaseStudy3 from './CaseStudy3';
 
 import './App.css'
 
@@ -41,6 +43,16 @@ function App() {
                         exact
                         path="/casestudy1"
                         element={<CaseStudy1 />}
+                    />
+                    <Route
+                        exact
+                        path="/casestudy2"
+                        element={<CaseStudy2 />}
+                    />
+                     <Route
+                        exact
+                        path="/casestudy3"
+                        element={<CaseStudy3 />}
                     />
                 </Routes>
             </Router>
