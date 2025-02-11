@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 
 import Navigation from './Navigation'
 import Hero from './Hero'
+import ProjectList from './ProjectList'
 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Navigation></Navigation>
       <Hero></Hero>
+      <ProjectList></ProjectList>
     </div>
   )
 }
