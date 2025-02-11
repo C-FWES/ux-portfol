@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 import Navigation from './Navigation'
+import Hero from './Hero'
 
 import './App.css'
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div>
       <Navigation></Navigation>
+      <Hero></Hero>
     </div>
   )
 }

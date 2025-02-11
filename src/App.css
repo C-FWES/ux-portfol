@@ -14,8 +14,23 @@ body {
 .navigationElement {
   color: #FFFFFF;
   font-family: Inter, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 30px;
   letter-spacing: -7%;
   display: inline-block;
+}
+
+.heroContainer {
+  display: inline-block;
+  width: 100%;
+}
+
+.heroElement {
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -7%;
+  display: inline-block;
+  margin-top: 0px;
 }
