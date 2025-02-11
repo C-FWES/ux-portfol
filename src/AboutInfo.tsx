@@ -3,9 +3,26 @@ import { useState } from "react";
 function AboutInfo() {
     return (
         <div className="heroContainer">
-            <p className="heroElement">I've always been someone keen on design</p>
+            <p className="heroElement">I've always viewed the world through an artistic lens.</p>
+            <p className="heroElement">When I was a kid, I'd think about how I could capture the pastel sky and rolling landscapes on paper. 
+            Getting into software development opened my eyes to the potential beauty of software made for humans. Something functional, yet coming off as the artistic pieces
+            I've always seeked to create - pleasant and joyful. </p>
+            <p className="heroElement">Ever since then, my goal has been to close the discontinuity between tech and art.</p>
+            <p className="heroElement">Fun facts:</p>
+            <li className="heroElement">My favorite font is Inter!</li>
+            <li className="heroElement">I love listening to k-pop! (LE SSERAFIM stan)</li>
+            <li className="heroElement">I built a GeoGuessr clone for my friends and I so we wouldn't need to pay :)</li>
         </div>
     )
 }
 
 export default AboutInfo
+
+// i've always viewed the world through an artistic lens
+// when i was a kid, i'd think about how i could capture the pastel sky and rolling landscapes on paper
+// getting into software development opened my eyes to the potential beauty of software made for humans
+// functional, yet coming off as the artistic pieces ive always seeked to create 
+// ever since then, my goal has been to close the discontinuity between tech and art 
+// fun facts:
+// favorite font: Inter
+// 
