@@ -52,17 +52,30 @@ body {
 }
 
 .footerContainer {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   margin-top: 48px;
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-left: 108px;
-  margin-right: 108px;
+  padding-left: 108px;
+  padding-right: 108px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
 }
 
 .footerElement {
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -7%;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.footerElementRight {
   color: #FFFFFF;
   font-family: Inter, sans-serif;
   font-weight: 400;
