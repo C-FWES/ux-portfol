@@ -10,7 +10,7 @@ function Navigation() {
     }
 
     const goToAbout = () => {
-        navigate("/");
+        navigate("/about");
     }
 
     const goToContact = () => {

@@ -10,6 +10,7 @@ import viteLogo from '/vite.svg'
 
 import Home from './Home';
 import Contact from './Contact';
+import About from './About';
 
 import './App.css'
 
@@ -24,6 +25,11 @@ function App() {
                         exact
                         path="/"
                         element={<Home />}
+                    />
+                    <Route
+                        exact
+                        path="/about"
+                        element={<About />}
                     />
                      <Route
                         exact
