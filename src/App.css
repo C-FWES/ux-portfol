@@ -1,6 +1,9 @@
 body {
   height: 100%;
   background-color: #121212;
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .navigationContainer {
