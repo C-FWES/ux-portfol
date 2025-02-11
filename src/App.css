@@ -18,6 +18,12 @@ body {
   font-size: 30px;
   letter-spacing: -7%;
   display: inline-block;
+  transition: 0.2s;
+}
+
+.navigationElement:hover {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .heroContainer {
@@ -49,6 +55,11 @@ body {
   letter-spacing: -9%;
   margin-top: 0px;
   margin-bottom: 0px;
+  transition: 0.2s;
+}
+
+.projectListElement:hover {
+  padding-left: 24px;
 }
 
 .footerContainer {
