@@ -128,6 +128,7 @@ body {
   display: inline-block;
   width: 100%;
   margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .caseStudyImage {
@@ -135,4 +136,26 @@ body {
   height: auto;
   object-fit: contain;
   border-radius: 8px;
+}
+
+.caseStudySubHeader {
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: -3.1px;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  transition: 0.2s;
+}
+
+.caseStudySubSubHeader {
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  letter-spacing: -3.1px;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  transition: 0.2s;
 }

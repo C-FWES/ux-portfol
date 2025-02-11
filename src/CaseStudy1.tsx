@@ -30,6 +30,7 @@ function CaseStudy1() {
       </div>
       <CaseStudyImage imagePath={quest2hero}></CaseStudyImage>
       {/* <Footer></Footer> */}
+      <p className='caseStudySubHeader'>PROBLEM STATEMENT</p>
     </div>
   )
 }
