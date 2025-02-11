@@ -8,6 +8,8 @@ function AboutInfo() {
             Getting into software development opened my eyes to the potential beauty of software made for humans. Something functional, yet coming off as the artistic pieces
             I've always seeked to create - pleasant and joyful. </p>
             <p className="heroElement">Ever since then, my goal has been to close the discontinuity between tech and art.</p>
+            <p className="heroElement">Currently, I'm working on growth operations at Mercor, and previously, I worked on AI risk management software at Exiger.</p>
+            <p className="heroElement">Seeking a Summer 2025 opportunity where I can make an impact with my passion for design!</p>
             <p className="heroElement">Fun facts:</p>
             <li className="heroElement">My favorite font is Inter!</li>
             <li className="heroElement">I love listening to k-pop! (LE SSERAFIM stan)</li>
