@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import Navigation from './Navigation'
 import Hero from './Hero'
 import ProjectList from './ProjectList'
+import Footer from './Footer'
 
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
       <Navigation></Navigation>
       <Hero></Hero>
       <ProjectList></ProjectList>
+      <Footer></Footer>
     </div>
   )
 }
