@@ -14,7 +14,7 @@ import ProjectList from './ProjectList'
 import Footer from './Footer'
 import AboutInfo from './AboutInfo';
 import CaseStudyImage from './CaseStudyImage';
-import quest2hero from './assets/quest2cover.png'
+import quest2hero from './assets/quest2covertransparent.png'
 
 import './App.css'
 
@@ -24,8 +24,10 @@ function CaseStudy1() {
   return (
     <div>
       <Navigation></Navigation>
-      <p className='caseStudyHeader'>CASE STUDY: QUEST 2.0</p>
-
+      <div className='caseStudyHeaderContainer'>
+        <p className='caseStudyHeader'>CASE STUDY: QUEST 2.0</p>
+        <p className='caseStudyHeaderLight'>2024</p>
+      </div>
       <CaseStudyImage imagePath={quest2hero}></CaseStudyImage>
       {/* <Footer></Footer> */}
     </div>
