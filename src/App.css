@@ -96,6 +96,18 @@ body {
   margin-top: 0px;
 }
 
+.abtElement {
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  letter-spacing: -1px;
+  /* display: inline-block; */
+  margin-top: 0px;
+  max-width: 75ch;
+  line-height: 1.5;
+}
+
 .caseStudyHeaderContainer {
   display: flex;
   justify-content: space-between;
@@ -128,7 +140,7 @@ body {
   display: inline-block;
   width: 100%;
   margin-top: 48px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 
 .caseStudyImage {
@@ -158,4 +170,17 @@ body {
   /* margin-top: 0px; */
   /* margin-bottom: 0px; */
   transition: 0.2s;
+}
+
+.caseStudyBody {
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: -1px;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  transition: 0.2s;
+  line-height: 1.5;
+  max-width: 75ch;
 }
