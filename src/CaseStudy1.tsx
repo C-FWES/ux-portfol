@@ -15,6 +15,14 @@ import Footer from './Footer'
 import AboutInfo from './AboutInfo';
 import CaseStudyImage from './CaseStudyImage';
 import quest2hero from './assets/quest2covertransparent.png'
+import inspo from './assets/inspo.png'
+import sketch from './assets/questsketch.png'
+import wireframes from './assets/questwireframes.png'
+import colors from './assets/questcolors.png'
+import sidebarcompare from './assets/questsidebar.png'
+import calendarcompare from './assets/questcalendar.png'
+import search from './assets/questsearch.png'
+import breadcrumbs from './assets/breadcrumbs.png'
 
 import './App.css'
 
@@ -40,7 +48,7 @@ function CaseStudy1() {
     <li><b>Visual design</b>: Quest features an outdated visual design. This ultimately makes it quite unpleasant to use in general.</li>
 </ul>
 
-<p className="caseStudyBody">Solution: <b>Improve navigation by introducing a fixed sidebar. Design a modern calendar view with color coded courses. Introduce a domain-specific search bar.</b></p>
+<p className="caseStudyBody">Solution: <b>Improve navigation by introducing a fixed sidebar. Design a modern calendar view with color coded courses. Introduce a domain-specific search bar. Improve visual design.</b></p>
 
 <p className="caseStudySubHeader">Research</p>
 
@@ -53,6 +61,8 @@ function CaseStudy1() {
     <li><b>Color-coded calendar</b>: Frequently used to contrast between different events in a calendar.</li>
     <li><b>Fixed search bar</b>: Common method to provide quick access to search for other pages.</li>
 </ul>
+
+<CaseStudyImage imagePath={inspo}></CaseStudyImage>
 
 <p className="caseStudyBody">I implemented all these findings into my final solution.</p>
 
@@ -72,12 +82,18 @@ function CaseStudy1() {
 <p className="caseStudySubSubHeader">Ideation</p>
 <p className="caseStudyBody">University of Waterloo uses black and gold as their theme colors - thus, I derived an appropriate color palette from this. I compared the colors against light and dark backgrounds to gauge which would be more appealing to the target demographic (students).</p>
 
+<CaseStudyImage imagePath={colors}></CaseStudyImage>
+
 <p className="caseStudyBody">I then sketched out some rough ideas of what I wanted the new platform to look like.</p>
+
+<CaseStudyImage imagePath={sketch}></CaseStudyImage>
 
 <p className="caseStudyBody">For typeface, my goal was to induce clarity while being easy to view, so I decided to use a sans-serif typeface. I decided to use Inter, due to its balance between legibility and comfort.</p>
 
 <p className="caseStudySubSubHeader">Wireframing</p>
 <p className="caseStudyBody">Based on my sketches, I derived low-fidelity wireframes for the sidebar, calendar, and search interface. This helped to evaluate the overall layout and any friction that could arise.</p>
+
+<CaseStudyImage imagePath={wireframes}></CaseStudyImage>
 
 <p className="caseStudyBody">I then used these, and my color palette, as bases for the final high-fidelity frames in Figma.</p>
 
@@ -89,11 +105,15 @@ function CaseStudy1() {
     <li><b>Reduces cognitive load</b>: Several buttons that all led to the same page are consolidated into a single element. Navigation elements are also now categorized.</li>
 </ul>
 
+<CaseStudyImage imagePath={sidebarcompare}></CaseStudyImage>
+
 <p className="caseStudySubSubHeader">Calendar Redesign</p>
 <ul className="caseStudyBody">
     <li><b>Improves visual design</b>: Modernized calendar interface, including simplified switching between day/week/month views.</li>
     <li><b>Reduces cognitive load</b>: Courses are categorized by color, making it easy to contrast between different courses.</li>
 </ul>
+
+<CaseStudyImage imagePath={calendarcompare}></CaseStudyImage>
 
 <p className="caseStudySubSubHeader">Search Interface</p>
 <ul className="caseStudyBody">
@@ -101,10 +121,14 @@ function CaseStudy1() {
     <li><b>Reduces cognitive load</b>: The search menu declutters the interface due to removing the need for subpage links on every page.</li>
 </ul>
 
+<CaseStudyImage imagePath={search}></CaseStudyImage>
+
 <p className="caseStudySubSubHeader">Breadcrumbs</p>
 <ul className="caseStudyBody">
     <li><b>Introduces simplified navigation flow</b>: The breadcrumb menu allows for easy navigation to previous subpages, and for users to track their current page.</li>
 </ul>
+
+<CaseStudyImage imagePath={breadcrumbs}></CaseStudyImage>
 
 <p className="caseStudySubHeader">Learnings</p>
 
