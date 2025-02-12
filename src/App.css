@@ -7,6 +7,10 @@ body {
   padding-bottom: 36px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navigationContainer {
   display: inline-block;
   width: 100%;
