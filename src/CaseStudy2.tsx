@@ -1,4 +1,3 @@
-import { useState } from 'react';
 
 import CaseStudyImage from './CaseStudyImage';
 import Navigation from './Navigation';
@@ -21,7 +20,6 @@ import frame2 from './assets/mockwireframe2.png';
 import review from './assets/review.png';
 
 function CaseStudy2() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>

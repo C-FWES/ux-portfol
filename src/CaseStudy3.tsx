@@ -1,39 +1,24 @@
-import { useState } from 'react'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-
-import Navigation from './Navigation'
-import Hero from './Hero'
-import ProjectList from './ProjectList'
-import Footer from './Footer'
-import AboutInfo from './AboutInfo';
 import CaseStudyImage from './CaseStudyImage';
-import plantogramhero from './assets/plantogramcover.png'
-import stats1 from './assets/plantstats.png'
-import stats2 from './assets/plantstats2.png'
-import stats3 from './assets/plantstats3.png'
-import inspo from './assets/plantograminspo2.png'
-import features from './assets/plantogramfeatures.png'
-import userflow from './assets/plantogramuserflow.png'
-import palette from './assets/plantogrampalette.png'
-import fonts from './assets/plantogramfonts.png'
-import icons from './assets/planticons.png'
-import wireframes from './assets/platogramwireframes.png'
-import login from './assets/login_frame.png'
-import home from './assets/home_frame.png'
-import shop from './assets/shop_frame.png'
-import camera from './assets/camera_frame.png'
+import Navigation from './Navigation';
+import camera from './assets/camera_frame.png';
+import home from './assets/home_frame.png';
+import login from './assets/login_frame.png';
+import icons from './assets/planticons.png';
+import plantogramhero from './assets/plantogramcover.png';
+import features from './assets/plantogramfeatures.png';
+import fonts from './assets/plantogramfonts.png';
+import inspo from './assets/plantograminspo2.png';
+import palette from './assets/plantogrampalette.png';
+import userflow from './assets/plantogramuserflow.png';
+import stats1 from './assets/plantstats.png';
+import stats2 from './assets/plantstats2.png';
+import stats3 from './assets/plantstats3.png';
+import wireframes from './assets/platogramwireframes.png';
+import shop from './assets/shop_frame.png';
 
-import './App.css'
+import './App.css';
 
 function CaseStudy3() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>

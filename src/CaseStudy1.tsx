@@ -1,4 +1,3 @@
-import { useState } from 'react';
 
 import CaseStudyImage from './CaseStudyImage';
 import Navigation from './Navigation';
@@ -15,7 +14,6 @@ import wireframes from './assets/questwireframes.png';
 import './App.css';
 
 function CaseStudy1() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>

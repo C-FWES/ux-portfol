@@ -1,6 +1,5 @@
-import { useState } from "react";
 
-function CaseStudyImage({imagePath}) {
+function CaseStudyImage(imagePath: any) {
     return (
        <div className="caseStudyImageContainer">
         <img src={imagePath} className="caseStudyImage" />
