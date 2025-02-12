@@ -1,36 +1,24 @@
-import { useState } from 'react'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
 
-import Navigation from './Navigation'
-import Hero from './Hero'
-import ProjectList from './ProjectList'
-import Footer from './Footer'
-import AboutInfo from './AboutInfo';
 import CaseStudyImage from './CaseStudyImage';
-import mockmatchhero from './assets/mockmatchcover.png'
+import Navigation from './Navigation';
+import mockmatchhero from './assets/mockmatchcover.png';
 
-import './App.css'
+import './App.css';
 
-import sketch from './assets/mocksketch.png'
-import frame1 from './assets/mockwireframe1.png'
-import frame2 from './assets/mockwireframe2.png'
-import branding from './assets/mockbranding.png'
-import newdash from './assets/mockframe3.png'
-import newvideo from './assets/mocknewvideo.png'
-import insights1 from './assets/insights1.png'
-import insights2 from './assets/insights2.png'
-import review from './assets/review.png'
-import insights from './assets/insights.png'
-import video from './assets/behaviourial.png'
-import calls from './assets/calls.png'
-import graphs from './assets/graphs.png'
+import video from './assets/behaviourial.png';
+import calls from './assets/calls.png';
+import graphs from './assets/graphs.png';
+import insights from './assets/insights.png';
+import insights1 from './assets/insights1.png';
+import insights2 from './assets/insights2.png';
+import branding from './assets/mockbranding.png';
+import newdash from './assets/mockframe3.png';
+import newvideo from './assets/mocknewvideo.png';
+import sketch from './assets/mocksketch.png';
+import frame1 from './assets/mockwireframe1.png';
+import frame2 from './assets/mockwireframe2.png';
+import review from './assets/review.png';
 
 function CaseStudy2() {
   const [count, setCount] = useState(0)

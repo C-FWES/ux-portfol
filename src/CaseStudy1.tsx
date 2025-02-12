@@ -1,30 +1,18 @@
-import { useState } from 'react'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
 
-import Navigation from './Navigation'
-import Hero from './Hero'
-import ProjectList from './ProjectList'
-import Footer from './Footer'
-import AboutInfo from './AboutInfo';
 import CaseStudyImage from './CaseStudyImage';
-import quest2hero from './assets/quest2covertransparent.png'
-import inspo from './assets/inspo.png'
-import sketch from './assets/questsketch.png'
-import wireframes from './assets/questwireframes.png'
-import colors from './assets/questcolors.png'
-import sidebarcompare from './assets/questsidebar.png'
-import calendarcompare from './assets/questcalendar.png'
-import search from './assets/questsearch.png'
-import breadcrumbs from './assets/breadcrumbs.png'
+import Navigation from './Navigation';
+import breadcrumbs from './assets/breadcrumbs.png';
+import inspo from './assets/inspo.png';
+import quest2hero from './assets/quest2covertransparent.png';
+import calendarcompare from './assets/questcalendar.png';
+import colors from './assets/questcolors.png';
+import search from './assets/questsearch.png';
+import sidebarcompare from './assets/questsidebar.png';
+import sketch from './assets/questsketch.png';
+import wireframes from './assets/questwireframes.png';
 
-import './App.css'
+import './App.css';
 
 function CaseStudy1() {
   const [count, setCount] = useState(0)
